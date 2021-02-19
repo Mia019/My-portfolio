@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav .logo{
+    padding: 20px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 27px;
+  }
+  nav li {
+    list-style: none;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav li a:hover{
+    transition: 0.5s;
+    color: #ffff00;
+    font-size: 22px;
+    border: 2px solid;
+    padding: 6px 10px;
+    border-radius: 22px;
+  }
+  header{
+   background:linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%), radial-gradient(at top center, rgb(10, 0, 0) 0%, rgb(0, 0, 0) 120%);
+   background-blend-mode: multiply,multiply;
+    height: 100vh;
+  }
+  .body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .left{
+    margin-top: 10%;
+  }
+  
+  .left h1{
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+  .left h1 span{
+    
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    color: white;
+   
+  }
+
+  
+  .left a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 22px;
+    padding: 10px 20px;
+    border: 2px solid;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+  }
+  .left a:hover{
+    transition: 0.5s;
+    font-size: 22px;
+    color: #ffff00;
+  }
+  
