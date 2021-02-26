@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  
   nav{
     display: flex;
     justify-content: space-between;
@@ -29,24 +34,26 @@
   
   nav li a:hover{
     transition: 0.5s;
-    color: #ffff00;
+    color: blueviolet;
     font-size: 22px;
     border: 2px solid;
     padding: 6px 10px;
     border-radius: 22px;
   }
+  
   header{
-   background:linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%), radial-gradient(at top center, rgb(10, 0, 0) 0%, rgb(0, 0, 0) 120%);
-   background-blend-mode: multiply,multiply;
     height: 100vh;
   }
+
   .body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
   .left{
-    margin-top: 10%;
+    margin-top: 150px;
+    position: fixed;
   }
   
   .left h1{
@@ -80,6 +87,21 @@
   .left a:hover{
     transition: 0.5s;
     font-size: 22px;
-    color: #ffff00;
+    color: blueviolet;
   }
-  
+
+.footer-main-div{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: blueviolet; 
+  padding: 20px 0px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer-social-icons{
+  background-color:rgb(243, 7, 7);
+  color: blueviolet;
+
+}
