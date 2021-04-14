@@ -62,14 +62,13 @@
     color: rgb(255, 255, 255);
     text-transform: uppercase;
   }
+
   .left h1 span{
-    
     font-size: 55px;
     font-family: 'Oswald', sans-serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     color: white;
-   
   }
 
   
@@ -90,18 +89,24 @@
     color: blueviolet;
   }
 
-.footer-main-div{
+
+.footer-bottom {
   width: 100%;
   height: auto;
   margin: auto;
   background: blueviolet; 
-  padding: 20px 0px;
+  padding: 10px 0px;
   position: absolute;
   bottom: 0px;
+  color: #fff;
+}
+  .footer-bottom p {
+    margin-bottom: 0;
 }
 
-.footer-social-icons{
-  background-color:rgb(243, 7, 7);
-  color: blueviolet;
+.social-icons a{
+  color: #fff;
+  margin-right: 15px;
+  float:right;
 
 }
